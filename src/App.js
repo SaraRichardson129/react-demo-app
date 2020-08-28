@@ -22,7 +22,7 @@ function App() {
         />
         <Route path="/clock" component={Clock} />
         <Route path="/contact" component={Contact} />
-        <Route path="/jeopardy" components={Jeopardy} />
+        <Route path="/jeopardy" component={Jeopardy} />
         <Route component={NoMatch} />
       </Switch>
     </div>
